@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+
+  font-family: 'Roboto', sans-serif;
+
+  box-sizing: border-box;
+}
+
+#app {
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 80vh 10vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+
+  padding: 0 30px;
+
+  background-color: #1b2845;
+
+  font-family: 'Mina', sans-serif;
+  color: #ddd;
+}
+
+main {
+  background-color: #65afff;
+}
+
+main .insert {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+main .insert input {
+  border-radius: 5px;
+  border: 0;
+  padding: 8px;
+}
+
+main .insert button {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #1b2845;
+  border: 0;
+  color: #ddd;
+  font-family: 'Mina', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+main .insert button:hover {
+  cursor: pointer;
+}
+
+main .cards ul {
+  list-style: none;
+
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+}
+
+main .cards ul li{
+  background-color: #ddd;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.6);
+}
+
+main .cards ul li strong {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #65afff;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>
+          ToDo App <i class="fa fa-code" style="font-weight: bolder;"></i>
+        </h1>
+      </header>
+      <main>
+        <div class="insert">
+          <input id="title" type="text" placeholder="ToDo Title" />
+          <input id="description" type="text" placeholder="ToDo Description" />
+          <button>Add ToDo</button>
+        </div>
+        <div class="cards">
+          <ul></ul>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
